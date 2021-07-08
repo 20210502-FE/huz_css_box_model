@@ -4,54 +4,55 @@
     box-sizing: border-box;
 }
 
-html,body {
+html, body {
     height: 100%;
 }
 
-body{
+body {
     position: relative;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-.container{
+.container {
     background-color: #3399CC;
     color: #FFFFFF;
     padding: 20px 0;
     height: 100%;
 }
 
-.container__wrapper{
+.container__wrapper {
     max-width: calc(100vw - 20%);
     margin: 0 auto;
 }
 
-.container__title{
+.container__title {
     font-size: 36px;
     margin-bottom: 30px;
 }
 
-.weather{
+.weather {
     margin-bottom: 20px;
 }
 
-ul,li{
+ul, li {
     border-style: solid;
     border-color: #FFFFFF;
 }
-.weather-cell{
+
+.weather-cell {
     font-size: 0;
     border-width: 2px 0 0 2px;
 }
 
-.weather:hover> .weather-cell{
+.weather:hover > .weather-cell {
     opacity: 0.3;
 }
 
-.weather__cell-item{
+.weather__cell-item {
     display: inline-block;
     font-size: 25px;
     width: 25%;
@@ -61,80 +62,70 @@ ul,li{
     border-width: 0 2px 2px 0;
 }
 
-span {
-    font-size: 25px;
-    margin-top: 10px;
-    display: inline-block;
-}
-
-.weather-cell-item>span{
-    display: block;
-}
-
-.weather__cell-item-25{
+.weather__cell-item_25 {
     width: 25%;
 }
 
-.weather__cell-item-50{
+.weather__cell-item_50 {
     width: 50%;
 }
 
-.weather__cell-item-75{
+.weather__cell-item_75 {
     width: 75%;
 }
 
-.weather__cell-item-100{
+.weather__cell-item_100 {
     width: 100%;
 }
 
-.container__content{
-    margin-bottom: 38px ;
+.container__content {
+    margin-bottom: 38px;
 }
 
-.weather__cell-item:nth-child(11n+1) {
+.weather__cell-item_dark-blue {
     background-color: #3399CC;
 }
 
-.weather__cell-item:nth-child(11n+2) {
+.weather__cell-item_blue {
     background-color: #33CCCC;
 }
 
-.weather__cell-item:nth-child(11n+3) {
+.weather__cell-item_strikemaster {
     background-color: #996699;
 }
 
-.weather__cell-item:nth-child(11n+4) {
+.weather__cell-item_red {
     background-color: #C24747;
 }
 
-.weather__cell-item:nth-child(11n+5) {
+.weather__cell-item_orange {
     background-color: #E2674A;
 }
 
-.weather__cell-item:nth-child(11n+6) {
+.weather__cell-item_yellow {
     background-color: #FFCC66;
 }
 
-.weather__cell-item:nth-child(11n+7) {
+.weather__cell-item_green {
     background-color: #99CC99;
 }
 
-.weather__cell-item:nth-child(11n+8) {
+.weather__cell-item_patina {
     background-color: #669999;
 }
 
-.weather__cell-item:nth-child(11n+9) {
-    background-color:#CC6699;
+.weather__cell-item_pink {
+    background-color: #CC6699;
 }
 
-.weather__cell-item:nth-child(11n+10) {
+.weather__cell-item_dark-green {
     background-color: #339966;
 }
 
-.weather__cell-item:nth-child(11n+11) {
+.weather__cell-item_kimberly {
     background-color: #666699;
 }
 
-.container__bottom-text{
+.container__bottom-text {
     font-size: 20px;
 }
